@@ -320,6 +320,9 @@ app_prefix: g1
 [mesos]
 ip: """ + master_node_ip + """
 port: 5050
+cluster0: slave_id.slave-set1_0
+cluster1: slave_id.slave-set1_1
+cluster2: slave_id.slave-set1_2
 
 [hydra]
 port: 9800
